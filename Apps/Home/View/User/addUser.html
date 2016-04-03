@@ -1,0 +1,27 @@
+<!--top 部分-->
+<include file="Public/top"/>
+<!--左边导航栏-->
+<include file="Public/left"/>
+<!--main部分-->
+<div id="addUser" style="width: 85%;float: left;padding-left: 15%">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('User/userList')}">员工信息管理</a></li>
+            <li><a href="{:U('User/addUser')}">添加员工</a></li>
+        </ul>
+    </div>
+
+    <div class="formbody" id="addUser_div">
+        <div class="formtext">Hi，<b>{$username}</b>，欢迎使用添加用户功能！</div>
+        <ul class="forminfo">
+            <li><label>用户名<b>*</b></label><input id="addUser_name" type="text" class="dfinput"/></li>
+            <li><label>密码<b>*</b></label><input id="addUser_password" type="text" class="dfinput"/></li>
+            <li><input id="btn_addUser" type="button" class="btn" value="提交"/> <label>&nbsp;</label>
+                <input id="cancel_btn_addUser" type="button" class="btn" value="取消"/>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--页脚-->
+<include file="Public/footer"/>

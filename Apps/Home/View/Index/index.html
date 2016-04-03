@@ -1,0 +1,173 @@
+﻿<!--top 部分-->
+<include file="Public/top"/>
+<!--左边导航栏-->
+<include file="Public/left"/>
+<!--main部分-->
+<div id="staffList" style="width: 85%;float: left;padding-left: 15%">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">系统设置</a></li>
+        </ul>
+    </div>
+
+    <div class="formbody">
+        <ul class="seachform">
+            <li><label>姓名</label><input id="name" type="text" class="scinput"/></li>
+            <li><label>部门</label>
+                <div class="vocation">
+                    <select class="select3" id="department">
+                        <option>全部</option>
+                        <option>零境</option>
+                        <option>思炫</option>
+                        <option>合推</option>
+                        <option>灵域</option>
+                    </select>
+                </div>
+            </li>
+
+            <li><label>职务</label>
+                <div class="vocation">
+                    <select class="select3" id="position">
+                        <option>全部</option>
+                        <option>总经理</option>
+                        <option>副总经理</option>
+                        <option>总监</option>
+                        <option>助理总监</option>
+                        <option>原画</option>
+                        <option>动作</option>
+                        <option>特效</option>
+                        <option>UI</option>
+                        <option>场景</option>
+                        <option>角色</option>
+                        <option>运营</option>
+                        <option>财务</option>
+                        <option>行政</option>
+                        <option>出纳</option>
+                        <option>动作</option>
+                        <option>前台</option>
+                        <option>运维</option>
+                        <option>测试</option>
+                        <option>IT</option>
+                        <option>策划</option>
+                        <option>商务</option>
+                        <option>前端程序</option>
+                        <option>后端程序</option>
+                        <option>web程序</option>
+                    </select>
+                </div>
+            </li>
+
+            <li><label>职称</label>
+                <div class="vocation">
+                    <select class="select3" id="level">
+                        <option>全部</option>
+                        <option>A1</option>
+                        <option>A2</option>
+                        <option>A3</option>
+                        <option>A4</option>
+                        <option>A5</option>
+                        <option>A6</option>
+                        <option>B1</option>
+                        <option>B2</option>
+                        <option>B3</option>
+                        <option>C1</option>
+                        <option>C2</option>
+                        <option>C3</option>
+                        <option>D1</option>
+                        <option>D2</option>
+                        <option>D3</option>
+                        <option>E1</option>
+                        <option>E2</option>
+                        <option>E3</option>
+                        <option>F1</option>
+                        <option>F2</option>
+                        <option>F3</option>
+                        <option>G1</option>
+                        <option>G2</option>
+                        <option>G3</option>
+                        <option>H1</option>
+                        <option>H2</option>
+                        <option>H3</option>
+                    </select>
+                </div>
+            </li>
+
+            <li><label>&nbsp;</label><input id="btn_search" type="button" class="scbtn" value="查询"/></li>
+
+        </ul>
+
+        <table class="tablelist">
+            <thead>
+            <tr>
+                <th>工号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>部门</th>
+                <th>职位</th>
+                <th>级别</th>
+                <th>年假</th>
+                <th>积分</th>
+                <th>入职日期</th>
+                <th>联系电话</th>
+                <th>更新时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td>{$vo.staff_id}</td>
+                    <td>{$vo.name}</td>
+                    <td>
+                        <if condition="$vo.gender eq 0 "><span>女</span></if>
+                        <if condition="$vo.gender eq 1 "><span>男</span></if>
+                    </td>
+                    <td>{$vo.department}</td>
+                    <td>{$vo.position}</td>
+                    <td>{$vo.level}</td>
+                    <td>{$vo.annul_holidays}</td>
+                    <td>{$vo.points}</td>
+                    <td>{$vo.entry_date}</td>
+                    <td>{$vo.telephone}</td>
+                    <td>{$vo.update_time}</td>
+                    <td><a href="__CONTROLLER__/updateStaff?id={$vo.id}" class="tablelink">修改</a>
+                        <a href="__CONTROLLER__/deleteStaff?id={$vo.id}" class="tablelink"> 删除</a>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+        <div class="pagin">
+            <div class="message">共<i class="blue">{$count}</i>条记录，当前显示第&nbsp;<i class="blue">{$page}&nbsp;</i>页</div>
+            <ul class="paginList">
+
+                <if condition="$page eq 1 ">
+                    <li class="paginItem"><a href="__CONTROLLER__/staffList?page=1"><span class="pagepre"></span></a>
+                    </li>
+                    <else/>
+                    <li class="paginItem"><a href="__CONTROLLER__/staffList?page={$page-1}"><span
+                            class="pagepre"></span></a></li>
+                </if>
+                <foreach name="pageArr" item="vo">
+                    <if condition="$vo eq $page ">
+                        <li class="paginItem current"><a href="__CONTROLLER__/staffList?page={$vo}">{$vo}</a></li>
+                        <else/>
+                        <li class="paginItem"><a href="__CONTROLLER__/staffList?page={$vo}">{$vo}</a></li>
+                    </if>
+                </foreach>
+                <if condition="$page eq $pageNum ">
+                    <li class="paginItem"><a href="__CONTROLLER__/staffList?page={$pageNum}"><span
+                            class="pagenxt"></span></a></li>
+                    <else/>
+                    <li class="paginItem"><a href="__CONTROLLER__/staffList?page={$page+1}"><span
+                            class="pagenxt"></span></a></li>
+                </if>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--页脚-->
+<include file="Public/footer"/>

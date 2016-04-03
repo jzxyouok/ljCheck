@@ -1,0 +1,114 @@
+<!--top 部分-->
+<include file="Public/top"/>
+<!--左边导航栏-->
+<include file="Public/left"/>
+<!--main部分-->
+<div id="staffList" style="width: 85%;float: left;padding-left: 15%">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('Staff/staffList')}">员工信息管理</a></li>
+            <li><a href="">添加员工</a></li>
+        </ul>
+    </div>
+
+    <div class="formbody">
+        <div class="formtext">Hi，<b>{$username}</b>，欢迎使用添加员工功能！</div>
+        <ul class="forminfo">
+            <li><label>姓名<b>*</b></label><input id="name" type="text" class="dfinput"/></li>
+            <li><label>工号<b>*</b></label><input id="staff_id" type="text" class="dfinput"/></li>
+            <li><label>性别<b>*</b></label>
+                <cite>
+                <input name="gender" type="radio" value="1" checked="checked"/>男&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="gender" type="radio" value="0"/>女
+                </cite>
+            </li>
+            <li><label>部门<b>*</b></label>
+                <div class="vocation">
+                    <select class="select3" id="department">
+                        <option>零境</option>
+                        <option>思炫</option>
+                        <option>合推</option>
+                        <option>灵域</option>
+                    </select>
+                </div>
+            </li>
+            <!--<li><label>职务</label>-->
+                <!--<div class="vocation">-->
+                    <!--<select class="select1" id="position">-->
+                        <!--<option> </option>-->
+                        <!--<option>总经理</option>-->
+                        <!--<option>副总经理</option>-->
+                        <!--<option>总监</option>-->
+                        <!--<option>助理总监</option>-->
+                        <!--<option>原画</option>-->
+                        <!--<option>动作</option>-->
+                        <!--<option>特效</option>-->
+                        <!--<option>UI</option>-->
+                        <!--<option>场景</option>-->
+                        <!--<option>角色</option>-->
+                        <!--<option>运营</option>-->
+                        <!--<option>财务</option>-->
+                        <!--<option>行政</option>-->
+                        <!--<option>出纳</option>-->
+                        <!--<option>动作</option>-->
+                        <!--<option>前台</option>-->
+                        <!--<option>运维</option>-->
+                        <!--<option>测试</option>-->
+                        <!--<option>IT</option>-->
+                        <!--<option>策划</option>-->
+                        <!--<option>商务</option>-->
+                        <!--<option>前端程序</option>-->
+                        <!--<option>后端程序</option>-->
+                        <!--<option>web程序</option>-->
+                    <!--</select>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li><label>职称</label>-->
+                <!--<div class="vocation">-->
+                    <!--<select class="select1" id="level">-->
+                        <!--<option> </option>-->
+                        <!--<option>A1</option>-->
+                        <!--<option>A2</option>-->
+                        <!--<option>A3</option>-->
+                        <!--<option>A4</option>-->
+                        <!--<option>A5</option>-->
+                        <!--<option>A6</option>-->
+                        <!--<option>B1</option>-->
+                        <!--<option>B2</option>-->
+                        <!--<option>B3</option>-->
+                        <!--<option>C1</option>-->
+                        <!--<option>C2</option>-->
+                        <!--<option>C3</option>-->
+                        <!--<option>D1</option>-->
+                        <!--<option>D2</option>-->
+                        <!--<option>D3</option>-->
+                        <!--<option>E1</option>-->
+                        <!--<option>E2</option>-->
+                        <!--<option>E3</option>-->
+                        <!--<option>F1</option>-->
+                        <!--<option>F2</option>-->
+                        <!--<option>F3</option>-->
+                        <!--<option>G1</option>-->
+                        <!--<option>G2</option>-->
+                        <!--<option>G3</option>-->
+                        <!--<option>H1</option>-->
+                        <!--<option>H2</option>-->
+                        <!--<option>H3</option>-->
+                    <!--</select>-->
+                <!--</div>-->
+            <!--</li>-->
+            <li><label>年假</label><input id="annul_holidays" type="text" class="dfinput"/></li>
+            <li><label>积分<b>*</b></label><input id="points" type="text" class="dfinput"/></li>
+            <li><label>入职日期<b>*</b></label><input id="entry_date" type="text" class="Wdate"
+                                                  onFocus="WdatePicker({lang:'zh-cn',dateFmt:'yyyy-MM-dd'})"
+                                                  style="width: 190px;height: 34px; padding-left: 10px;"/></li>
+            <li><label>联系电话</label><input id="telephone" type="text" class="dfinput"/></li>
+            <li><input id="btn_addStaff" type="button" class="btn" value="提交"/> <label>&nbsp;</label>
+                <input id="cancel_btn_addStaff" type="button" class="btn" value="取消"/>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--页脚-->
+<include file="Public/footer"/>

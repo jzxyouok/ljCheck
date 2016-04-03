@@ -1,0 +1,1247 @@
+[ 2016-04-03T12:36:59+08:00 ] ::1 /ljCheck/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\ljCheck\Apps\Home\Controller\BaseController.class.php 第 11 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\ljCheck\Apps\Home\Controller\BaseController.class.php 第 13 行.
+
+[ 2016-04-03T12:36:59+08:00 ] ::1 /ljCheck/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-04-03T12:37:07+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'dnsg'@'localhost' (using password: YES)
+
+[ 2016-04-03T12:37:15+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'dnsg'@'localhost' (using password: YES)
+
+[ 2016-04-03T12:37:28+08:00 ] ::1 /ljCheck/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-04-03T12:37:38+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'dnsg'@'localhost' (using password: YES)
+
+[ 2016-04-03T12:38:48+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'dnsg'@'localhost' (using password: YES)
+
+[ 2016-04-03T12:40:26+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'dnsg'@'localhost' (using password: YES)
+
+[ 2016-04-03T12:41:24+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'dnsg'@'127.0.0.1' to database 'lingjing_check'
+
+[ 2016-04-03T12:51:50+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'dnsg'@'127.0.0.1' to database 'lingjing_check'
+
+[ 2016-04-03T12:52:02+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'dnsg'@'127.0.0.1' to database 'lingjing_check'
+
+[ 2016-04-03T12:53:10+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'tt11' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-04-03T12:53:10+08:00 ] ::1 /ljCheck/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+
+[ 2016-04-03T12:53:10+08:00 ] ::1 /ljCheck/index.php/Check/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007584s ]
+
+[ 2016-04-03T12:54:27+08:00 ] ::1 /ljCheck/index.php/Login/loginOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-04-03T12:54:28+08:00 ] ::1 /ljCheck/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-04-03T12:54:34+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'tt11' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-03T12:54:34+08:00 ] ::1 /ljCheck/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-04-03T12:54:34+08:00 ] ::1 /ljCheck/index.php/Check/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001940s ]
+
+[ 2016-04-03T12:54:36+08:00 ] ::1 /ljCheck/index.php/Check/signList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 437 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 441 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 449 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sign` WHERE ( 1=1 AND date LIKE '2016-03%'  ) LIMIT 1   [ RunTime:0.0528s ]
+SQL: SELECT * FROM `sign` WHERE ( 1=1 AND date LIKE '2016-03%'  ) LIMIT 0,12   [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-04-03T12:54:38+08:00 ] ::1 /ljCheck/index.php/Check/signDetailList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `sign_detail` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 473 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 480 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_detail` WHERE ( 1=1 AND `check_time` LIKE '2016-03%'  ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sign_detail` WHERE ( 1=1 AND `check_time` LIKE '2016-03%'  ) LIMIT 0,12   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-04-03T12:54:39+08:00 ] ::1 /ljCheck/index.php/Staff/staffList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 19 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 23 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-04-03T12:54:42+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E6%80%9D%E7%82%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 1   [ RunTime:0.0252s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 0,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-04-03T12:54:50+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=2&name=&department=%E6%80%9D%E7%82%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 12,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-04-03T12:54:52+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=3&name=&department=%E6%80%9D%E7%82%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 24,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-04-03T12:54:55+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=1&name=&department=%E6%80%9D%E7%82%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '思炫' ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-04-03T12:55:00+08:00 ] ::1 /ljCheck/index.php/Check/signList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 437 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 441 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 449 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sign` WHERE ( 1=1 AND date LIKE '2016-03%'  ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sign` WHERE ( 1=1 AND date LIKE '2016-03%'  ) LIMIT 0,12   [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-04-03T12:55:02+08:00 ] ::1 /ljCheck/index.php/Check/signDetailList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `sign_detail` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 473 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 480 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_detail` WHERE ( 1=1 AND `check_time` LIKE '2016-03%'  ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sign_detail` WHERE ( 1=1 AND `check_time` LIKE '2016-03%'  ) LIMIT 0,12   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-04-03T12:55:03+08:00 ] ::1 /ljCheck/index.php/Check/leaveList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 324 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 328 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 336 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `leave` WHERE ( 1=1 AND start_date LIKE '2016-03%'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `leave` WHERE ( 1=1 AND start_date LIKE '2016-03%'  ) LIMIT 0,12   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-04-03T12:55:04+08:00 ] ::1 /ljCheck/index.php/Check/checkList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-03%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `rep_sign` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `over_work` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sign` WHERE ( 1 = 1 AND `date` LIKE '2016-03%' )  [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 271 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 275 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 281 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-03%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-03%' ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-04-03T12:55:07+08:00 ] ::1 /ljCheck/index.php/Check/checkList?staff_name=&department=%E5%85%A8%E9%83%A8&year_month=2016-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 281 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 0,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-04-03T12:55:10+08:00 ] ::1 /ljCheck/index.php/Check/checkAnalyse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 506 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 507 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-04-03T12:55:10+08:00 ] ::1 /ljCheck/index.php/Check/ajaxCheckAnalyse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 584 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 588 行.
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-03' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-03T12:55:13+08:00 ] ::1 /ljCheck/index.php/Check/ajaxCheckAnalyse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0041s ]
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-01' ) LIMIT 1   [ RunTime:0.0339s ]
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-02' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-03' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-03T13:04:12+08:00 ] ::1 /ljCheck/index.php/Login/loginOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-04-03T13:04:12+08:00 ] ::1 /ljCheck/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-04-03T13:06:57+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'tt11' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-03T13:06:57+08:00 ] ::1 /ljCheck/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-04-03T13:06:57+08:00 ] ::1 /ljCheck/index.php/Check/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2016-04-03T13:07:02+08:00 ] ::1 /ljCheck/index.php/Staff/staffList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 19 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 23 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2016-04-03T13:07:15+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=2&name=&department=%E5%85%A8%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 12,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-04-03T13:07:18+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=3&name=&department=%E5%85%A8%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 24,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-04-03T13:07:21+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E9%9B%B6%E5%A2%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-04-03T14:04:29+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E9%9B%B6%E5%A2%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 0,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-04-03T14:04:47+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E9%9B%B6%E5%A2%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-04-03T14:06:21+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E9%9B%B6%E5%A2%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-04-03T14:06:59+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E9%9B%B6%E5%A2%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-04-03T14:08:16+08:00 ] ::1 /ljCheck/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\ljCheck\Apps\Home\Controller\BaseController.class.php 第 11 行.
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\ljCheck\Apps\Home\Controller\BaseController.class.php 第 13 行.
+
+[ 2016-04-03T14:08:16+08:00 ] ::1 /ljCheck/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-04-03T14:08:25+08:00 ] ::1 /ljCheck/index.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'tt11' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-03T14:08:25+08:00 ] ::1 /ljCheck/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-04-03T14:08:25+08:00 ] ::1 /ljCheck/index.php/Check/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-04-03T14:08:28+08:00 ] ::1 /ljCheck/index.php/Staff/staffList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 19 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 23 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2016-04-03T14:08:35+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?name=&department=%E9%9B%B6%E5%A2%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 AND department = '零境' ) LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2016-04-03T14:08:38+08:00 ] ::1 /ljCheck/index.php/Staff/addStaff.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-04-03T14:08:40+08:00 ] ::1 /ljCheck/index.php/Staff/staffList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 19 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 23 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\StaffController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 0,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-04-03T14:08:44+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=8&name=&department=%E5%85%A8%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 84,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-04-03T14:08:46+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=5&name=&department=%E5%85%A8%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 48,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-04-03T14:08:49+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=6&name=&department=%E5%85%A8%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 60,12   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-04-03T14:08:52+08:00 ] ::1 /ljCheck/index.php/Staff/staffList?page=4&name=&department=%E5%85%A8%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `staff` WHERE ( 1 = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `staff` WHERE ( 1 = 1 ) LIMIT 36,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-04-03T14:08:56+08:00 ] ::1 /ljCheck/index.php/Check/checkList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-03%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `rep_sign` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `over_work` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `staff` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sign` WHERE ( 1 = 1 AND `date` LIKE '2016-03%' )  [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 271 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 275 行.
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 281 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-03%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-03%' ) LIMIT 0,12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-04-03T14:09:00+08:00 ] ::1 /ljCheck/index.php/Check/checkList?staff_name=&department=%E5%85%A8%E9%83%A8&year_month=2016-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 281 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-04-03T14:09:03+08:00 ] ::1 /ljCheck/index.php/Check/checkList?page=4&staff_name=&department=%E5%85%A8%E9%83%A8&year_month=2016-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `check` WHERE ( 1 = 1 AND `year_month` LIKE '2016-01%' ) LIMIT 36,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-04-03T14:09:04+08:00 ] ::1 /ljCheck/index.php/Check/checkAnalyse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 506 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 507 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-04-03T14:09:05+08:00 ] ::1 /ljCheck/index.php/Check/ajaxCheckAnalyse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: staff_name D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 584 行.
+NOTIC: [8] Undefined index: department D:\xampp\htdocs\ljCheck\Apps\Home\Controller\CheckController.class.php 第 588 行.
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-03' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-04-03T14:09:08+08:00 ] ::1 /ljCheck/index.php/Check/ajaxCheckAnalyse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `check` [ RunTime:0.0044s ]
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-01' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-02' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(late_count),SUM(leave_days),SUM(over_normal_count),SUM(over_weekend_count),SUM(over_festival_count),SUM(unsign_in_count),SUM(unsign_out_count) FROM `check` WHERE (  1=1 AND `year_month` = '2016-03' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-03T14:09:11+08:00 ] ::1 /ljCheck/index.php/Login/loginOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-04-03T14:09:11+08:00 ] ::1 /ljCheck/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+

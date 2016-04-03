@@ -1,0 +1,77 @@
+<!--top 部分-->
+<include file="Public/top"/>
+<!--左边导航栏-->
+<include file="Public/left"/>
+<!--main部分-->
+<div id="staffList" style="width: 85%;float: left;padding-left: 15%;">
+
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('Check/checkList')}">考勤统计</a></li>
+            <li><a href="{:U('Check/upload')}">上传考勤数据</a></li>
+        </ul>
+    </div>
+
+    <div class="mainindex">
+
+
+        <div class="welinfo">
+            <!--<span><img src="__ROOT__/Public/images/sun.png" alt="天气"/></span>-->
+            <b>{$username} 您好!，欢迎使用零境考勤管理系统</b>
+        </div>
+
+        <span style="color: red; clear: both; padding-left: 10px;">(推荐使用Chrome 浏览器)</span>
+
+        <div class="welinfo">
+            <span><img src="__ROOT__/Public/images/time.png" alt="时间"/></span>
+            <i>当前日期：<?php echo date("Y-m-d",time());?></i>
+        </div>
+
+        <div class="xline"></div>
+        <li><img src="__ROOT__/Public/images/ico04.png"/>
+            <span><a href="#">文件上传</a><b style="color: red">(提示：将补签，加班，请假，打卡数据等数据表上传完后再进行考勤统计查询;如有数据表未一次添加，用重新统计查询。)</b></span>
+        </li>
+        <div>
+
+            <div id="rep_sign_excel" style="float: left; padding-left: 60px; padding-top: 20px;">
+                <form method="post" action="__CONTROLLER__/doUploadExcel" enctype="multipart/form-data">
+                    <b>选择补签Excel表：</b>
+                    <input type="file" name="rep_sign_excel"/>
+                    <input type="submit" value="上传" class="scbtn"/>
+                </form>
+            </div>
+            <div id="over_work_excel" style="clear: both; padding-left: 60px; padding-top: 20px;">
+                <form method="post" action="__CONTROLLER__/doUploadExcel" enctype="multipart/form-data">
+                    <b>选择加班Excel表：</b>
+                    <input type="file" name="over_work_excel"/>
+                    <input type="submit" value="上传" class="scbtn"/>
+                </form>
+            </div>
+            <div id="leave_excel" style="clear: both; padding-left: 60px; padding-top: 20px;">
+                <form method="post" action="__CONTROLLER__/doUploadExcel" enctype="multipart/form-data">
+                    <b>选择请假Excel表：</b>
+                    <input type="file" name="leave_excel"/>
+                    <input type="submit" value="上传" class="scbtn"/>
+                </form>
+            </div>
+            <div id="sign_detail_excel" style="clear: both; padding-left: 60px; padding-top: 20px;">
+                <form method="post" action="__CONTROLLER__/doUploadExcel" enctype="multipart/form-data">
+                    <b>打卡详情Excel表：</b>
+                    <input type="file" name="sign_detail_excel"/>
+                    <input type="submit" value="上传" class="scbtn"/>
+                </form>
+            </div>
+            <div id="sign_excel" style="clear: both; padding-left: 60px; padding-top: 20px;">
+                <form method="post" action="__CONTROLLER__/doUploadExcel" enctype="multipart/form-data">
+                    <b>选择打卡Excel表：</b>
+                    <input type="file" name="sign_excel"/>
+                    <input type="submit" value="上传" class="scbtn"/>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--页脚-->
+<include file="Public/footer"/>

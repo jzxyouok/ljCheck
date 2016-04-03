@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>零境考勤系统</title>
+    <link href="__ROOT__/Public/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="__ROOT__/Public/css/select.css" rel="stylesheet" type="text/css"/>
+    <link href="__ROOT__/Public/css/common.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body style="background:url(__ROOT__/Public/images/topbg.gif) repeat-x;">
+
+<div id="top" style="height: 80px;position: relative;">
+    <div class="topleft">
+        <a href="__CONTROLLER__/index" target="_parent">
+            <!--<img src="__ROOT__/Public/images/logo.png" title="系统首页"/>-->
+        </a>
+    </div>
+    <div class="topright">
+        <ul>
+            <li><span><img src="__ROOT__/Public/images/help.png" title="帮助" class="helpimg"/></span>
+                <a href="javascript:;" class="help">帮助</a>
+            </li>
+            <li><a href="javascript:;" class="about">关于</a></li>
+            <li><a href="__MODULE__/Login/loginOut" target="_parent">退出</a></li>
+        </ul>
+        <div class="user">
+            <span>{$_SESSION['username']}</span>
+        </div>
+    </div>
+</div>
+
+<div class="lefttop" style="clear: both;"><span></span></div>

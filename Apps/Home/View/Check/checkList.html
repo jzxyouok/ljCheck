@@ -1,0 +1,106 @@
+<!--top 部分-->
+<include file="Public/top"/>
+<!--左边导航栏-->
+<include file="Public/left"/>
+<!--main部分-->
+<div id="staffList" style="width: 85%;float: left;padding-left: 15%">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('Check/checkList')}">考勤统计</a></li>
+            <li><a href="{:U('Check/checkList')}">考勤列表</a></li>
+        </ul>
+    </div>
+
+    <div class="formbody">
+        <ul class="seachform">
+            <li><label>姓名</label><input id="checkList_name" type="text" class="scinput" value="{$staff_name}"/></li>
+            <li><label>部门</label>
+                <div class="vocation">
+                    <select class="select3" id="checkList_department">
+                        <option>{$department}</option>
+                        <option>全部</option>
+                        <option>零境</option>
+                        <option>思炫</option>
+                        <option>合推</option>
+                        <option>灵域</option>
+                    </select>
+                </div>
+            </li>
+            <li><label>日期(默认上一个月的数据)</label>
+                <input id="year_month" type="text" class="Wdate" onFocus="WdatePicker({lang:'zh-cn',dateFmt:'yyyy-MM'})" style="width: 100px;height: 28px; padding-left: 10px;" value="{$year_month}"/>
+            </li>
+
+            <li><label>&nbsp;</label><input id="checkList_btn_search" type="button" class="scbtn" value="查询"/></li>
+            <li><label>&nbsp;</label><input id="checkList_btn_export" type="button" class="scbtn" value="导出数据"/></li>
+            <li><label>&nbsp;</label><input id="afresh_checkList_btn" type="button" class="scbtn" value="重新统计"/></li>
+
+        </ul>
+
+        <table class="tablelist">
+            <thead>
+            <tr>
+                <th>工号</th>
+                <th>姓名</th>
+                <th>部门</th>
+                <th>迟到时间(分钟)</th>
+                <th>迟到次数</th>
+                <th>未签到次数</th>
+                <th>早退时间(分钟)</th>
+                <th>早退次数</th>
+                <th>未签退次数</th>
+                <th>请假天数</th>
+                <th>餐补次数</th>
+                <th>工作日加班次数</th>
+                <th>周末加班次数</th>
+                <th>节假日加班次数</th>
+                <th>日期(年-月)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td>{$vo.staff_id}</td>
+                    <td>{$vo.staff_name}</td>
+                    <td>{$vo.department}</td>
+                    <td>{$vo.late_time}</td>
+                    <td>{$vo.late_count}</td>
+                    <td>{$vo.unsign_in_count}</td>
+                    <td>{$vo.early_time}</td>
+                    <td>{$vo.early_count}</td>
+                    <td>{$vo.unsign_out_count}</td>
+                    <td>{$vo.leave_days} <a href="__CONTROLLER__/leaveDetails?staff_name={$vo.staff_name}&year_month={$vo.year_month}">[详情]</a></td>
+                    <td>{$vo.meal_count}</td>
+                    <td>{$vo.over_normal_count}</td>
+                    <td>{$vo.over_weekend_count}</td>
+                    <td>{$vo.over_festival_count}</td>
+                    <td>{$vo.year_month}</td>
+
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+        <input id="checkList_pageNum" style="display: none" value="{$pageNum}"/>
+        <div class="pagination" id="page_checkList"></div>
+    </div>
+</div>
+<!--页脚-->
+<include file="Public/footer"/>
+<script>
+    laypage({
+        cont: 'page_checkList',
+        pages: $('#checkList_pageNum').val(), //可以叫服务端把总页数放在某一个隐藏域，再获取。假设我们获取到的是18
+        curr: function(){ //通过url获取当前页，也可以同上（pages）方式获取
+            var page = location.search.match(/page=(\d+)/);
+            return page ? page[1] : 1;
+        }(),
+        jump: function(e, first){ //触发分页后的回调
+            var staff_name = $('#checkList_name').val();
+            var department = $('#checkList_department').val();
+            var year_month = $('#year_month').val();
+            if(!first){ //一定要加此判断，否则初始时会无限刷新
+                location.href = 'checkList?page='+e.curr+'&staff_name='+staff_name+'&department='+department+'&year_month='+year_month;
+            }
+        }
+    });
+</script>

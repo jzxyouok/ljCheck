@@ -1,0 +1,59 @@
+<!--top 部分-->
+<include file="Public/top"/>
+<!--左边导航栏-->
+<include file="Public/left"/>
+<!--main部分-->
+<div id="userList" style="width: 85%;float: left;padding-left: 15%">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('User/userList')}">用户管理</a></li>
+            <li><a href="{:U('User/userList')}">用户列表</a></li>
+        </ul>
+    </div>
+        <table class="tablelist">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>名称</th>
+                <th>注册时间</th>
+                <th>操作(admin权限)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td class="user_id">{$vo.id}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.reg_time}</td>
+                    <td>
+                        <a href="__CONTROLLER__/deleteUser?id={$vo.id}" class="tablelink"> 删除</a>
+                        <if condition="$vo.name eq 'admin' ">
+                            <a href="__CONTROLLER__/addUser" class="tablelink"> 添加</a>
+                        </if>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+    <input id="user_pageNum" style="display: none" value="{$pageNum}"/>
+    <div class="pagination" id="user_checkList"></div>
+    </div>
+</div>
+<!--页脚-->
+<include file="Public/footer"/>
+<script>
+    laypage({
+        cont: 'user_checkList',
+        pages: $('#user_pageNum').val(), //可以叫服务端把总页数放在某一个隐藏域，再获取。假设我们获取到的是18
+        curr: function(){ //通过url获取当前页，也可以同上（pages）方式获取
+            var page = location.search.match(/page=(\d+)/);
+            return page ? page[1] : 1;
+        }(),
+        jump: function(e, first){ //触发分页后的回调
+            if(!first){ //一定要加此判断，否则初始时会无限刷新
+                location.href = 'checkList?page='+e.curr;
+            }
+        }
+    });
+</script>
