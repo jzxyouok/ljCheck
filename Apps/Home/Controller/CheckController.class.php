@@ -20,8 +20,9 @@ class CheckController extends BaseController {
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize = 3145728;// 设置附件上传大小
         $upload->exts = array('xls', 'xlsx');// 设置附件上传类型
-        $upload->rootPath = './Public/Uploads/';
-        //$upload->savePath  = './Public/uploads/';// 设置附件上传目录
+        //$upload->rootPath = './Public/Uploads/';
+        $upload->rootPath = '.';
+        $upload->savePath  = '/Public/uploads/';// 设置附件上传目录
         // 上传文件
         $tableName = 'sign';
         if (isset($_FILES['sign_excel']) && $_FILES['sign_excel'] != null) {

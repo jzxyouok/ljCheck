@@ -13,5 +13,5 @@ return array(
     'DB_USER'   => 'dnsg', // 用户名
     'DB_PWD'    => 'dnsg',  // 密码
     'DB_PORT'   => '3306', // 端口
-    'DB_PREFIX' => '', // 数据库表前缀
+    'DB_PREFIX' => 'lj_', // 数据库表前缀
 );
